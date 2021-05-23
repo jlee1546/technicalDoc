@@ -1,0 +1,110 @@
+#navbar header {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    
+
+}
+
+#navbar a {
+    text-decoration: none;
+    background: rgb(121, 167, 236);
+    padding: 0.25rem;
+    border-radius: 2px;
+    opacity: 0.8;
+}
+
+.main-section {
+    margin-left: 5rem;
+    padding: 1rem;
+    margin-top: 7.5rem;
+    
+   
+}
+
+.main-section:first-of-type {
+    margin-top: 0;
+}
+
+.main-section header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.main-section article {
+    
+    margin: 0 auto;
+}
+
+.main-section code {
+    background: #ccc;
+    padding: 0.5rem;
+}
+
+#button {
+    display: block;
+    text-decoration: none;
+    background:rgb(121, 167, 236);
+    padding: 0.5rem 1rem;
+    margin: 5rem auto;
+    width: 2rem;
+    text-align: center;
+    border-radius: 2px;
+    opacity: 0.8;
+    color: black;
+}
+
+@media (min-width: 43rem) {
+    #navbar {
+        height: 100vh;
+        width: 15rem;
+        max-width: 15rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        border-right: 2px solid black;
+    }
+    #navbar header {
+        
+        margin: 0 auto;
+        font-size: 2rem;
+        font-weight: normal;
+        padding: 1rem;
+        
+    }
+    #navbar ul {
+        flex-direction: column;
+        margin-top: 0;
+        
+    }
+    #navbar a {
+        display: block;
+        border-top: 1px solid black;
+        color: black;
+        padding: 0.5rem;
+        font-size: 1.25rem;
+    }
+
+    #main-doc {
+        margin-left: 16rem;
+        
+    }
+
+    .main-section {
+        max-width: 40rem;
+        min-width: 23rem;
+    }
+
+    .main-section p {
+        width: 80%;
+       
+    }
+}
